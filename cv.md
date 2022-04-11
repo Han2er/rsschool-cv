@@ -7,7 +7,7 @@ Contact:
 
 _I’m beginner front-end developer_
 
-Skils:
+### Skils:
 * HTML
 * CSS
 * JavaScript
@@ -17,7 +17,7 @@ Skils:
 
 I’m working on my portfolio, I have created some projects you can see it
 
-Education:
+### Education:
 * GTU Informatics
 * Domestica - Creative codding
 * BitCamp
