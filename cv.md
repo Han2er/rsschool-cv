@@ -13,7 +13,7 @@ _I’m beginner front-end developer_
 * JavaScript
 * React
 
-[Click to see my ortfolio](https://github.com/Han2er)
+[Click to see my portfolio](https://github.com/Han2er)
 
 I’m working on my portfolio, I have created some projects you can see it
 
