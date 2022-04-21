@@ -9,11 +9,13 @@
   </head>
   <body>
     <header>
-      <a href="#">Home</a>
-      <a href="#about-me">About me</a>
-      <a href="#resume">Resume</a>
-      <a href="#portfolio">Portfolio</a>
-      <!-- <a href="#">Contacts</a> -->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about-me">About me</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
     </header>
 
     <aside>
@@ -22,18 +24,18 @@
 
     <main>
       <div id="name-wrapper">
-        <p class="name">Nikoloz</p>
+        <h1 class="name">Nikoloz</h1>
         <p class="name">Lezhava</p>
       </div>
       <article id="initial-article">
-        <h2>Hello!</h2>
+        <h3>Hello!</h3>
         <p>
           I am Junior Web Developer from Georgia, Tbilisi. I'm learning to have
           rich experience in web site building.
         </p>
       </article>
       <article>
-        <h1 id="about-me">About me</h1>
+        <h2 id="about-me">About me</h2>
         <p>
           I am a hard working, punctual and motivated. I am a good timekeeper,
           always willing to learn new skills. I am friendly, helpful and polite,
@@ -41,20 +43,20 @@
           environments and also within a team setting. I am outgoing and
           tactful, and able to listen effectively when solving problems.
         </p>
-        <h2>Skills</h2>
+        <h3>Skills</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React</li>
         </ul>
-        <h2>Languages</h2>
+        <h3>Languages</h3>
         <ul>
           <li>Georgian</li>
           <li>English</li>
           <li>Russian</li>
         </ul>
-        <h2>Courses</h2>
+        <h3>Courses</h3>
         <ul>
           <li>freeCodeCamp - Front-End development</li>
           <li>BitCamp</li>
@@ -65,7 +67,7 @@
         </ul>
       </article>
       <article>
-        <h1 id="resume">Experience</h1>
+        <h2 id="resume">Experience</h2>
         <p>
           I worked for several advertising companies as Graphic Designer and as
           machine operator (for example printer, ploter, CNC ...)
@@ -75,21 +77,53 @@
         </p>
       </article>
       <article>
-        <h1 id="portfolio">Portfolio</h1>
+        <h2 id="portfolio">Portfolio</h2>
+        <h4>JS Funny example:</h4>
+        <pre
+          tabindex="0"
+        ><code>alert( null <span class="operator">></span> 0 );  <span class="comment">// false</span>
+alert( null <span class="operator">==</span> 0 ); <span class="comment">// false</span>
+alert( null <span class="operator">>=</span> 0 ); <span class="comment">// true</span>
+</code></pre>
         <p>
-          You can see my Portfolio at
-          <a href="https://github.com/Han2er">GitHub</a>
+          You can see my
+          <a href="https://han2er.github.io/Portfolio/">Portfolio</a> at GitHub
         </p>
+      </article>
+      <article>
+        <h2 id="contacts">Contacts</h2>
+        <ul>
+          <li>
+            <a href="mailto:han2er@live.com"
+              ><i class="bi bi-envelope-fill"></i> Email</a
+            >
+          </li>
+          <li>
+            <a href="https://www.github.com/han2er"
+              ><i class="bi bi-github"></i> GitHub</a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/han2er"
+              ><i class="bi bi-facebook"></i> Facebook</a
+            >
+          </li>
+          <li>
+            <a href="tel:+995555000000"
+              ><i class="bi bi-telephone-fill"></i> +995 555 00 00 00</a
+            >
+          </li>
+        </ul>
       </article>
     </main>
 
     <footer>
       <a href="https://han2er.github.io/rsschool-cv/">Nikoloz Lezhava</a>
       <a href="https://www.github.com/han2er">GitHub</a>
-      <time datetime="2022-04-19">2022, April</time>
+      <time datetime="2022-04">2022, April</time>
 
       <a href="https://rs.school/">
-        <img src="./images/logo-rsschool3.png" width="70px" alt="logo"
+        <img src="./images/logo-rsschool3.png" width="70" alt="logo"
       /></a>
     </footer>
   </body>
